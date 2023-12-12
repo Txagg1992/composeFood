@@ -46,3 +46,5 @@ C
 settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+w
+G.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3,9\a\9aed88f31eac276604c6355c1adcc0bce1f80fd6
