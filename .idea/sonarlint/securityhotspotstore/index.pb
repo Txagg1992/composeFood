@@ -48,3 +48,17 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3,9\a\9aed88f31eac276604c6355c1adcc0bce1f80fd6
+m
+=app/src/main/java/com/curiousapps/composefood/di/AppModule.kt,8\5\85757bd56a9fe1f8a31e80f815541c26d1d61a13
+p
+@app/src/main/java/com/curiousapps/composefood/BaseApplication.kt,2\9\291713a22845fe0b9896dade39cebf6a0385197c
+q
+Aapp/src/main/java/com/curiousapps/composefood/di/NetworkModule.kt,b\8\b88aab519a291def10994424dbb57fb4d5af45d7
+~
+Napp/src/main/java/com/curiousapps/composefood/network/model/RecipeDtoMapper.kt,f\b\fbb07c4f88b57534dfdd3c9347f202d1fe88d544
+t
+Dapp/src/main/java/com/curiousapps/composefood/domain/model/Recipe.kt,8\e\8ee9c586f39e51a9059a5120bd56b4d46627e031
+x
+Happ/src/main/java/com/curiousapps/composefood/network/model/RecipeDto.kt,e\5\e501829d21981e8c505aecf13368898e414e2279
+r
+Bapp/src/main/java/com/curiousapps/composefood/util/DomainMapper.kt,7\6\760cfd33eb07df56ed6a0c731c76843ce6f67d68
