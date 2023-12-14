@@ -1,5 +1,6 @@
 package com.curiousapps.composefood.di
 
+import com.curiousapps.composefood.network.RecipeService
 import com.curiousapps.composefood.network.model.RecipeDtoMapper
 import com.google.gson.GsonBuilder
 import dagger.Module
@@ -21,15 +22,15 @@ object NetworkModule {
         return RecipeDtoMapper()
     }
 
-//    @Singleton
-//    @Provides
-//    fun provideRecipeService(): RecipeService {
-//        return Retrofit.Builder()
-//            .baseUrl("https://food2fork.ca/api/recipe/")
-//            .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
-//            .build()
-//            .create(RecipeService::class.java)
-//    }
+    @Singleton
+    @Provides
+    fun provideRecipeService(): RecipeService {
+        return Retrofit.Builder()
+            .baseUrl("https://food2fork.ca/api/recipe/")
+            .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
+            .build()
+            .create(RecipeService::class.java)
+    }
 
     /**
      * I might include proper authentication later on food2fork.ca

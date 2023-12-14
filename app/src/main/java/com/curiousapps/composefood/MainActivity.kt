@@ -2,6 +2,7 @@ package com.curiousapps.composefood
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -36,7 +37,9 @@ class MainActivity : ComponentActivity() {
                 token = "Token 9c8b06d329136da358c2d00e76946b0111ce2c48",
                 id = 116
             )
-            Log.e("MainActivity", "onCreate: ${recipe.title}")
+            val tv = findViewById<TextView>(R.id.tv)
+            tv.text = recipe.title
+            Log.i("MainActivity", "onCreate: ${recipe.title}")
         }
 //        setContent {
 //            ComposeFoodTheme {

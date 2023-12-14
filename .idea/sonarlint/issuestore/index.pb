@@ -64,9 +64,11 @@ r
 Bapp/src/main/java/com/curiousapps/composefood/util/DomainMapper.kt,7\6\760cfd33eb07df56ed6a0c731c76843ce6f67d68
 Ü
 Vapp/src/main/java/com/curiousapps/composefood/network/response/RecipeSearchResponse.kt,d\e\def58fbaa9de6eb7a18a9abc165a4a3d23ebfb83
-w
-Gapp/src/main/java/com/curiousapps/composefood/network/RrecipeService.kt,5\0\50a883606304cfb1db4b0ea402125d3d83b2a8f5
 v
 Fapp/src/main/java/com/curiousapps/composefood/network/RecipeService.kt,e\a\ea2e7eb1d4894568f45ac6d3653711f069b1576e
 Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ee9c586f39e51a9059a5120bd56b4d46627e031,f\5\f57de5d2515f3fb9d749125344193f98d0601de8
+|
+Lapp/src/main/java/com/curiousapps/composefood/repository/RecipeRepository.kt,5\2\5298970b9ede86e6482ad36d57786601de968e9a
+É
+Sapp/src/main/java/com/curiousapps/composefood/repository/DefaultRecipeRepository.kt,c\d\cd62a5c363c1cb6632fba1337fcde5d7c3eab34e

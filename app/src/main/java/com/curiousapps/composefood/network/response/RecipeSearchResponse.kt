@@ -3,7 +3,7 @@ package com.curiousapps.composefood.network.response
 import com.curiousapps.composefood.network.model.RecipeDto
 import com.google.gson.annotations.SerializedName
 
-class RecipeSearchResponse (
+data class RecipeSearchResponse (
     @SerializedName("count")
     var count: Int,
 
