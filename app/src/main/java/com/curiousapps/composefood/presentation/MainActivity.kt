@@ -53,10 +53,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun somebodyLogHiltString() {
         Log.i(TAG, "onCreate: $randomHiltString")
-         supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.main_container, RecipeListFragment())
-                .commit()
+//         supportFragmentManager
+//                .beginTransaction()
+//                .replace(R.id.main_container, RecipeListFragment())
+//                .commit()
         }
 
     private fun serviceTest(){
