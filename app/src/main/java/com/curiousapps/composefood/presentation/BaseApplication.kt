@@ -1,4 +1,4 @@
-package com.curiousapps.composefood
+package com.curiousapps.composefood.presentation
 
 import android.app.Application
 import androidx.compose.runtime.mutableStateOf

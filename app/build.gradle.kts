@@ -46,6 +46,10 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
     }
+    buildFeatures {
+        compose = true
+    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -77,17 +81,22 @@ dependencies {
 
     //Compose
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui")//
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
     val composeStuff = "1.4.3"
-    implementation("androidx.compose.foundation:foundation:$composeStuff")
-    implementation("androidx.compose.runtime:runtime-livedata:$composeStuff")
+    implementation("androidx.compose.foundation:foundation:$composeStuff")//
+    implementation("androidx.compose.runtime:runtime-livedata:$composeStuff")//
+//    implementation("androidx.compose.runtime:runtime-rxjava2::$composeStuff")//
     implementation("androidx.compose.material:material:$composeStuff")
     implementation("androidx.compose.material:material-icons-core:$composeStuff")
     implementation("androidx.compose.material:material-icons-extended:$composeStuff")
+
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha13")
+
+    implementation("androidx.activity:activity-compose:1.8.1")
 
     //FragNav
     val fragNav = "2.6.0"
@@ -109,6 +118,7 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:$hilt")
 
     //implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    kapt("androidx.hilt:hilt-compiler:1.1.0")
 
     implementation("androidx.hilt:hilt-navigation:1.1.0")
 

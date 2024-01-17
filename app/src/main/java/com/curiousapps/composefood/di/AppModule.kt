@@ -1,7 +1,7 @@
 package com.curiousapps.composefood.di
 
 import android.content.Context
-import com.curiousapps.composefood.BaseApplication
+import com.curiousapps.composefood.presentation.BaseApplication
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -17,7 +17,13 @@ object AppModule {
     @Singleton
     @Provides
     fun provideApplication(@ApplicationContext app: Context):
-            BaseApplication{
+            BaseApplication {
         return app as BaseApplication
+    }
+
+    @Singleton
+    @Provides
+    fun provideRandomString(): String{
+        return "This random string is provided by Hilt"
     }
 }
